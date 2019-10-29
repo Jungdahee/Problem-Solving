@@ -8,8 +8,7 @@ int main(){
     int T;
     cin >> T;
 
-    int tc = 0;
-    while(T--){
+    for(int tc = 1; tc <= T; tc++){
         vector<int> list;
         
         for(int i = 0; i < 10; i++){
@@ -27,6 +26,6 @@ int main(){
 
         sort(list.begin(), list.end());
 
-        cout << "#" << ++tc << " " << list[9] << " " << list[0] << '\n';
+        cout << "#" << tc << " " << list[9] << " " << list[0] << '\n';
     }
 }
