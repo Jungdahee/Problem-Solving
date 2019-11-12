@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution(vector<vector<int>> board){ //가장 큰 정사각형 - success
+int solution(vector<vector<int>> board){ //가장 큰 정사각형 찾기 - success
     int answer = board[0][0]; 
     int garo = board[0].size(); //4 - 4
     int sero = board.size(); //4 - 2
